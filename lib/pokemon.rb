@@ -1,3 +1,5 @@
+require_relative "../config/environment.rb"
+
 class Pokemon
     attr_accessor :id, :name, :type, :db
 
